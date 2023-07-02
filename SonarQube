@@ -1,0 +1,30 @@
+1. What is Sonar Qube
+Soanr Qube is Quality management tool .
+            ---Code Quality 
+                    2. How to get Code qualitty 
+                   --Peer code review ( Your peers will review the code ) 
+                  -- Static Code review ( Done using tools like Sonar Qube ) 
+
+                      --- Rules will review the code
+                      --- With the help of rules code will be reviewed 
+            https://www.comparitech.com/net-admin/best-static-code-analysis-tools/
+
+            ---Test Quality 
+                     Unit Testing -- Acceptence Testing --- Code Coverage ( Test Quality ) 
+
+----------------------------------------------------------
+
+How Sonar Qube Works :
+
+              -- Sonar Qube Server 
+                         -- WEb front end ( HtML ,JAVA ,CSS) 
+                         --DB ( Postgres or Oracle or MSSQL or H2 ( Default ) 
+              -- SonarQube Scanner ) 
+
+
+
+                       It is an utility which scans the code and generates the roports ) 
+              -- Sonar Qube Scanner 
+
+
+                        
