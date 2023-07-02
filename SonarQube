@@ -1,3 +1,11 @@
+Git repo for documentation for installation 
+-------------
+https://github.com/ikaudanaveen/DevOps
+------------
+Insttalation 
+https://www.sonarsource.com/products/sonarqube/downloads/
+https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.9.2.46101.zip
+
 1. What is Sonar Qube
 Soanr Qube is Quality management tool .
             ---Code Quality 
@@ -13,6 +21,7 @@ Soanr Qube is Quality management tool .
                      Unit Testing -- Acceptence Testing --- Code Coverage ( Test Quality ) 
 
 ----------------------------------------------------------
+-----------------
 
 How Sonar Qube Works :
 
@@ -25,6 +34,10 @@ How Sonar Qube Works :
 
                        It is an utility which scans the code and generates the roports ) 
               -- Sonar Qube Scanner 
-
+                            -- CommandLine Scanner
+                            -- Maven Scanner
+                        -- Gradle scanner
+                        -- Jenkins Scanner ( Plugins) 
+-------------------------------------------------------------------
 
                         
