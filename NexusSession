@@ -1,0 +1,84 @@
+What is Nexus ?
+         Repository management tool 
+                      --Packages 
+                      -- yum 
+                      --nuget 
+Developed By : Sonatype 
+Develped in : Java
+
+Releases : 
+               -- Community ( Free )
+               --Professional/Enterprise version ( paid)
+
+--------------------------------------
+Why Nexus ?
+https://devopsschool.com/path/
+----------------
+          --- Availability of Packages
+          ---Security of packages 
+          --- Durability of package
+                    ( The chances are not there to get the package currupted as 
+                     artifacts are stored in Object format )
+          -- Easy administration 
+
+----------------------------------
+
+https://developers.redhat.com/blog/2018/12/10/install-java-rhel8
+
+-----------------
+yum install java-1.8.0-openjdk-devel
+-----------------------
+
+clear
+    2  yum install wget -y
+    3  yum install java-1.8.0-openjdk-devel
+    4  
+   11  cd /opt
+   12  
+   17  wget https://download.sonatype.com/nexus/3/nexus-3.58.1-01-unix.tar.gz
+   18  ls
+   19  tar -xvzf nexus-3.58.1-01-unix.tar.gz
+   20  ls\
+   21  ls
+   22  mv nexus-3.58.1-01 nexus
+   23  ls
+   24  cd nexus
+   25  ls
+   26  cd bin
+   27  ls
+   28  ./nexus status
+   29  ./nexus start
+   30  ./nexus status
+
+----------------------------------------
+
+<Public IP pf Nexus Server>:8081
+---------------
+
+Different type of Nexus repo at broad level :
+
+   -----  
+
+1. Hosted : 
+              -- Repo is local
+               -- Both read and write 
+        release
+           http://52.4.65.98:8081/repository/maven-hosted-kund-release/
+        snapshot
+
+          http://52.4.65.98:8081/repository/maven-kund-hosted-snapshot/
+           
+
+2. Proxy :
+            -- Repo is remote 
+           -- Only Read 
+http://52.4.65.98:8081/repository/maven-kund-proxy-mixed/
+
+3 . Group :
+
+         ---Multiple hosted 
+         --- Multiple proxy
+           grouped together 
+http://52.4.65.98:8081/repository/mymaven/
+
+----------------------------------------
